@@ -6,4 +6,5 @@ $wordBreaker = new WordBreaker("../data/tdict-std.txt");
 foreach($wordBreaker->breakIntoWords("ฉัน eat ข้าวชิมิ") as $w) {
 	print "<li>$w</li>\n";
 }
+echo "Hello!!";
 ?>
