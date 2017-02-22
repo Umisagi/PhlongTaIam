@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-<ul>
 <?php
 require_once "../src/WordBreaker.php";
 
@@ -11,6 +7,3 @@ foreach($wordBreaker->breakIntoWords("ฉัน eat ข้าวชิมิ") a
 	print "<li>$w</li>\n";
 }
 ?>
-</ul>
-</body>
-</html>
